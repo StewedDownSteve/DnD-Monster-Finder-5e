@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Monster Finder 5e</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your custom CSS file -->
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <!-- Title -->
+            <h1 class="text-center">D&D Monster Finder 5e</h1>
+        </div>
+        
+        <!-- Search Bar Section -->
+        <div class="section mt-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group"></div>
+                        <input type="text" id="monster-info" class="form-control" placeholder="Enter Monster Name">
+                        <div class="input-group-append">
+                            <button id="search-button" class="btn btn-primary" type="button">Search</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Monster Image Section -->
+        <div class="section mt-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <img id="monster-image" src="" alt="Monster Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Monster Information Section -->
+        <div class="section mt-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div id="monster-details" class="text-left">
+                        <h2 id="monster-name"></h2>
+                        <p><strong>Size:</strong> <span id="monster-size"></span></p>
+                        <p><strong>Type:</strong> <span id="monster-type"></span></p>
+                        <p><strong>Alignment:</strong> <span id="monster-alignment"></span></p>
+                        <p><strong>Armor Class:</strong> <span id="monster-armor-class"></span></p>
+                        <!-- Add more fields as needed -->
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
