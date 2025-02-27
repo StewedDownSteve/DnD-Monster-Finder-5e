@@ -22,5 +22,4 @@ Working on the Monster Finder project solidified my understanding of using JavaS
 ## Examples:
 Take a look at these couple of examples that I have in my own portfolio:
 
-- [Project 1: Your Other Project Name](http://example.com)
-- [Project 2: Another Project Name](http://example.com)
+
